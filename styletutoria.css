@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap');
+* {
+    
+    box-sizing: border-box;
+    
+}
+body {
+    font-family: 'Mulish', sans-serif;
+    background-color: #f7f5ef;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    background-color: #3cd615;
+    height: 200px;
+   
+    overflow: hidden;
+}
+
+.header .titulo {
+    width: 300px;
+    
+    color: #f2f6fa;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    
+}
+
+
+
+.header img {
+    max-height: fit-content;
+    max-width: 75px;
+    float: left;
+    margin-top: 35px;
+}
+
+
+
+ul {
+
+    list-style-type: none;
+    
+    overflow: hidden;
+}
+
+
+nav {
+    line-height: 150px;
+    float: right;
+}
+
+nav a {
+    color: #f2f6fa;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+nav a:hover {
+    color: #423c41;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+
+
+
+p {
+    color: #f0295b;
+    text-align: center;
+}
+
+
+
+
+.contacto {
+    color: #423c41;
+}
+
+.registrarse {
+    color: #f0295b;
+    text-decoration: underline;
+}
+
+.caja {
+    background-color: #a6da99;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    width: 50%;
+    margin-left: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+button {
+    background-color: #fff12d;
+    
+}
