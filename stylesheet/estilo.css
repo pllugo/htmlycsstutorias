@@ -10,6 +10,9 @@ header {
     background-color: #3cd615;
     overflow: hidden;
 }
+body {
+    background-color: #f7f5ef;
+}
 
 .contenedor {
     width: 90%;
@@ -43,4 +46,51 @@ nav a {
 
 nav a:hover {
     color: #423c41;
+}
+
+.caja {
+    background-color: #a6da99;
+    margin: auto;
+    text-align: center;
+    width: 600px;
+    height: 280px;
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+button, input {
+    margin-top: 10px;
+    height: 40px;
+    width: 400px;
+    border: 1px solid;
+}
+
+input {
+    font-size: 19px;
+    font-weight: 300;
+    padding-left: 10px;
+}
+
+button {
+    background-color: #fff12d;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+p, a {
+    color: #f0295b;
+}
+
+form {
+    border-bottom: 1px #f0295b solid;
+    width: 400px;
+    margin: auto;
+}
+
+h2 {
+    font-weight: 1000;
+    font-size: 24px;
 }
